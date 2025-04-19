@@ -1,6 +1,6 @@
 import streamlit as st
 import pandas as pd
-from topic_classifier import classify_prompt  # For Aptitude Helper
+from topic_classifier import classify_prompt as classify_prompt  # For Aptitude Helper
 from topic_classifier_class6_science import classify_prompt as science_classify_prompt_6
 from topic_classifier_class6_maths import classify_prompt as maths_classify_prompt_6
 from topic_classifier_class7_science import classify_prompt as science_classify_prompt_7
